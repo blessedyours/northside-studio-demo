@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Northside Studio — demo moderna y responsive para barberías y negocios locales.">
+  <meta name="theme-color" content="#0d0d0f">
+  <title>Northside Studio — Barbería</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Northside Studio, inicio">Northside <span>Studio</span></a>
+      <button class="menu-btn" type="button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn-small" href="#reservar">Reservar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">BARBERÍA · ESTILO · DETALLE</p>
+          <h1>Un corte que se nota.<br><span>Un estilo que se queda.</span></h1>
+          <p class="hero-text">Cortes modernos, barba, perfilado y atención personalizada en un espacio diseñado para que salgas con una imagen que sí te represente.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#reservar">Reservar cita</a>
+            <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
+          </div>
+          <div class="stats" aria-label="Datos destacados">
+            <div><strong>4.9★</strong><span>Valoración</span></div>
+            <div><strong>+800</strong><span>Clientes</span></div>
+            <div><strong>6 días</strong><span>Abierto</span></div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="photo photo-main" role="img" aria-label="Interior de barbería"></div>
+          <div class="floating-card">
+            <span>Hoy</span>
+            <strong>Espacios disponibles</strong>
+            <small>Reserva en menos de un minuto</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="container strip-row">
+        <span>Cortes modernos</span>
+        <span>Barba y perfilado</span>
+        <span>Reservas por WhatsApp</span>
+        <span>Atención personalizada</span>
+      </div>
+    </section>
+
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SERVICIOS</p>
+          <h2>Lo esencial, bien hecho.</h2>
+          <p>Servicios claros, precios visibles y una presentación pensada para convertir visitas en reservas.</p>
+        </div>
+
+        <div class="cards">
+          <article class="service-card">
+            <span class="icon">✂</span>
+            <h3>Corte clásico</h3>
+            <p>Consulta de estilo, corte y acabado profesional.</p>
+            <strong>$220 MXN</strong>
+          </article>
+          <article class="service-card featured">
+            <span class="pill">Más pedido</span>
+            <span class="icon">◆</span>
+            <h3>Corte + barba</h3>
+            <p>Servicio completo para cabello y barba con acabado definido.</p>
+            <strong>$320 MXN</strong>
+          </article>
+          <article class="service-card">
+            <span class="icon">⌁</span>
+            <h3>Perfilado</h3>
+            <p>Definición de contornos y acabado limpio.</p>
+            <strong>$160 MXN</strong>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section" id="nosotros">
+      <div class="container split">
+        <div class="photo photo-secondary" role="img" aria-label="Barbero trabajando"></div>
+        <div>
+          <p class="eyebrow">NORTHSIDE STUDIO</p>
+          <h2>Más que cortar cabello.</h2>
+          <p>Trabajamos con cita para darte tiempo real, atención al detalle y una experiencia consistente. Sin prisas, sin resultados genéricos.</p>
+          <ul class="check-list">
+            <li>Atención personalizada</li>
+            <li>Herramientas sanitizadas</li>
+            <li>Reserva rápida por WhatsApp</li>
+            <li>Espacio cómodo y moderno</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">GALERÍA</p>
+          <h2>El trabajo habla por sí solo.</h2>
+          <p>Una galería simple ayuda a demostrar calidad sin llenar la página de texto.</p>
+        </div>
+
+        <div class="gallery">
+          <div class="photo g1" role="img" aria-label="Corte de cabello moderno"></div>
+          <div class="photo g2" role="img" aria-label="Detalle de barbería"></div>
+          <div class="photo g3" role="img" aria-label="Trabajo de perfilado"></div>
+          <div class="photo g4" role="img" aria-label="Cliente en barbería"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking" id="reservar">
+      <div class="container booking-box">
+        <div>
+          <p class="eyebrow">RESERVA</p>
+          <h2>¿Listo para tu próxima cita?</h2>
+          <p>El botón puede conectarse al número real del negocio con un mensaje prellenado para facilitar la reserva.</p>
+        </div>
+        <a class="btn btn-light" href="https://wa.me/5210000000000?text=Hola%2C%20quiero%20reservar%20una%20cita" target="_blank" rel="noopener">Reservar por WhatsApp</a>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">CONTACTO</p>
+          <h2>Todo lo importante, fácil de encontrar.</h2>
+          <p>Horarios, ubicación y redes en un solo lugar.</p>
+        </div>
+        <div class="contact-card">
+          <p><strong>Horario</strong><br>Lun–Sáb · 10:00–20:00</p>
+          <p><strong>Ubicación</strong><br>Zona Centro · Ciudad Juárez</p>
+          <p><strong>Instagram</strong><br>@northsidestudio</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span>© <span id="year"></span> Northside Studio</span>
+      <span>Demo web de portafolio</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
